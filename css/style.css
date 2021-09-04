@@ -109,12 +109,12 @@ body {
   border-width: 2px;
 }
 #gtco-main-nav form a.btn-info {
-  background: #ED735A;
-  border-color: #ED735A;
+  background: #82C5CE ;
+  border-color: #82C5CE ;
 }
 #gtco-main-nav form a.btn-outline-dark {
   border-color: #fff;
-  background-color: #ED735A;
+  background-color: #71B694 ;
 }
 @media (max-width: 991px) {
   #gtco-main-nav form a.btn-outline-dark {
