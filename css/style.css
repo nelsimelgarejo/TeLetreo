@@ -38,6 +38,29 @@
   font-family: "Dosis-Semibold";
   src: url(../fonts/Dosis-Semibold.ttf);
 }
+@font-face {
+  font-family: "Roboto-Light";
+  src: url(../fonts/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url(../fonts/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url(../fonts/Roboto-Medium.ttf);
+}@font-face {
+  font-family: "Roboto-Light";
+  src: url(../fonts/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url(../fonts/Roboto-Medium.ttf);
+}
 p {
   font-family: "Dosis-Regular";
   color: #666666;
@@ -109,12 +132,16 @@ body {
   border-width: 2px;
 }
 #gtco-main-nav form a.btn-info {
-  background: #ED735A;
-  border-color: #ED735A;
+  background: #fff;
+  border-color: #82C5CE;
+  color: #82C5CE;
 }
 #gtco-main-nav form a.btn-outline-dark {
-  border-color: #fff;
-  background-color: #ED735A;
+  
+  background: #ED735A;
+    border-color: #ED735A;
+    
+
 }
 @media (max-width: 991px) {
   #gtco-main-nav form a.btn-outline-dark {
@@ -283,7 +310,7 @@ body {
     margin: 20px 0;
     margin-bottom: 40px;
     font-size: 20px;
-    font-family: Roboto;
+    font-family: Roboto-Regular;
     font-style: normal;
     font-weight: normal;
     color: #000000;
@@ -586,20 +613,20 @@ body {
   width: 12px;
   margin-bottom: -1px;
 }
-.gtco-testimonials .card {
+.gtco-news .card {
   background: #fff;
   box-shadow: 0 15px 40px 0 rgba(0, 0, 0, 0.08);
   margin: 0 30px;
   padding: 0 20px;
-  border-radius: 50px;
+  border-radius: 5px;
 }
-.gtco-testimonials .card .card-img-top {
-  max-width: 100px;
+.gtco-news .card .card-img-top {
+  max-width: 160px;
   border-radius: 50%;
   margin: 0 auto;
-  border: 5px solid #1d3ede;
-  width: 100px;
-  height: 100px;
+  border: 5px solid #e5ebf7;
+  width: 160px;
+  height: 160px;
 }
 .gtco-testimonials .card h5 {
   color: #1d3ede;
@@ -631,7 +658,7 @@ body {
 .gtco-testimonials .center p {
   font-size: 20px;
 }
-.gtco-testimonials .center .card-img-top {
+.gtco-news .center .card-img-top {
   max-width: 100%;
   height: 120px;
   width: 120px;
@@ -705,7 +732,7 @@ body {
 }
 .gtco-news .owl-carousel .owl-nav .owl-prev, .gtco-news .owl-carousel .owl-nav .owl-next {
   font-size: 120px;
-  color: #666666;
+  color: #82C5CE;
   position: absolute;
 }
 .gtco-news .owl-carousel .owl-nav .owl-prev {
@@ -718,7 +745,7 @@ body {
   padding: 0 25px;
 }
 .gtco-news .owl-carousel .card .card-img-top {
-  border-radius: 40px;
+  /*border-radius: 40px;*/
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.08);
 }
 .gtco-news .owl-carousel .card h5 {
@@ -885,7 +912,7 @@ padding: 1em;
     margin: 20px 0;
     margin-bottom: 40px;
     font-size: 20px;
-    font-family: Roboto;
+    font-family: Roboto-Regular;
     font-style: normal;
     font-weight: normal;
     color: #000000;
@@ -1016,4 +1043,35 @@ padding: 1em;
     text-align: center;
     padding-top: 5px;
     margin-left: 15px;
+}
+
+.teletreo-team1 {
+    
+    text-align: center;
+    margin-bottom: 0px!important;
+
+    
+}
+
+.teletreo-team-role {
+    
+    text-align: center;
+    font-size: 20px!important;
+    
+}
+
+
+
+.teletreo-team {
+    background: #ffffff;
+    box-shadow: 0 0 11px 0 rgb(166 166 166 / 25%);
+    
+}
+
+.teletreo-team-img {
+    
+    max-width: 100%;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;    
 }
