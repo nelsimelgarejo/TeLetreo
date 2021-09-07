@@ -135,11 +135,13 @@ body {
   background: #fff;
   border-color: #82C5CE;
   color: #82C5CE;
+  font-family: 'Roboto-Regular';
 }
 #gtco-main-nav form a.btn-outline-dark {
   
   background: #ED735A;
-    border-color: #ED735A;
+  border-color: #ED735A;
+  font-family: 'Roboto-Regular';
     
 
 }
@@ -399,12 +401,13 @@ body {
     margin-top: 0;
   }
 }
+/*
 .gtco-features .col-lg-4 p {
   max-width: 320px;
   margin-bottom: 30px;
-}
+}*/
 .gtco-features .col-lg-8 {
-  padding: 10px 100px;
+  /*padding: 10px 100px;*/
 }
 @media (max-width: 767px) {
   .gtco-features .col-lg-8 {
@@ -848,9 +851,9 @@ box-sizing: border-box;
   }
 }
 .TeLetreo-planes {
-border: 1px solid #000000;
+/*border: 1px solid #000000;
 box-sizing: border-box;
-padding: 1em;
+padding: 1em;*/
 }
 
 
@@ -1074,4 +1077,79 @@ padding: 1em;
     height: 120px;
     width: 120px;
     border-radius: 50%;    
+}
+
+.teletreo-planes {
+    
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.19));
+    background: #fff;
+       
+}
+
+.teletreo-plan-header-l {
+background-color: #efefef;
+padding: 0.5em; 
+    
+}
+
+.teletreo-plan-header-r {
+
+padding: 0.5em; 
+background: #ffd8d4;     
+}
+
+
+.teletreo-planes-box {
+    padding: 1em; 
+    border-right: 1px solid #dedede;   
+}
+.teletreo-plane-header-p-l {
+    margin-bottom: 0px;
+    font-family: 'Roboto-Regular';
+    color: #666666;
+}
+
+.teletreo-plane-header-p-r {
+   margin-bottom: 0px;
+    font-family: 'Roboto-Regular';
+    color: #ed735a;
+}
+
+.multilang {
+    text-transform: uppercase;
+    float: right;
+    margin: 4.5px 10px;
+    border-radius: 5px;
+    list-style: none;
+    background: rgb(255, 255, 255);
+    color: #fff;
+    border: none !important;
+    border: 2px solid transparent !important;
+}
+
+.multilang select {
+   
+    width: 100px;
+    text-indent: 0.01px;
+    color: rgba(70, 91, 110, 1);
+    background: url(../images/icons/idioma.png) no-repeat;
+    cursor: pointer;
+    background-position: 100% 50%;
+    border-width: 0px !important;
+    border-style: initial !important;
+    border-color: initial !important;
+    border-image: initial !important;
+    float: right;
+    margin: 2.5px 0px;
+    border-radius: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-right-width: 5px;
+    border-left-width: 5px;
 }
